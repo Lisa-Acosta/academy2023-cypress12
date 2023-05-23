@@ -2,7 +2,6 @@ const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   e2e: {
-    experimentalStudio: false,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
@@ -38,7 +37,7 @@ module.exports = defineConfig({
     pageLoadTimeout: 60000,
     platform: 'win32',
     port: null,
-    projectId: 'xkig7u',
+    projectId: '3oq67y',
     redirectionLimit: 20,
     reporter: 'spec',
     reporterOptions: null,
